@@ -15,7 +15,7 @@ let bee;
 let mixer;
 
 const loader = new GLTFLoader();
-loader.load('/test.glb',
+loader.load('/demon_bee_full_texture.glb',
      function(gltf){
         bee = gltf.scene;   
         // bee.position.x = 0;
